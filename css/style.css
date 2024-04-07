@@ -26,7 +26,6 @@ body{
     flex-basis: 20rem;
     flex-grow: 1;
     flex-wrap: wrap;
-    
 }
 .ordena-menu{
     display: flex;
@@ -76,7 +75,6 @@ body{
     margin-bottom: 5px;
     padding-bottom: 1em;
 }
-
 /* ABOUT */
 .container-aboutme{
     display: flex;
@@ -90,7 +88,6 @@ body{
     left: 13px;
     margin: 3px auto;
     font-size: 1rem;
-    
 }
 .burbuja {
     display: flex;
@@ -256,8 +253,6 @@ body{
     background-position: center top;
     box-shadow: 5px 5px 20px rgb(77, 77, 236);
 }
-
-
 /* PROJECTS */
 .container-projects{
     display: flex;
@@ -327,7 +322,6 @@ body{
     border-bottom: 1px solid black;
     box-shadow: 5px 5px 20px rgb(77, 77, 236);
 }
-
 /* SUMMARY */
 .container-experience{
     display: flex;
@@ -382,23 +376,19 @@ body{
     left: 0%;
     width: 450px;
     height: 400px;
-    /* top: 0%; */
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 1em;
 }
-
 .programador {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     position: relative;
     width: 430px;
     height: 430px;
     margin-left: 10px;
     margin-right: 10px;
-    
 }
 .title-programador {
     display: flex;
@@ -407,10 +397,8 @@ body{
     justify-content: center;
     position: relative;
     width: 430px;
-    /* top: 0%; */
     color: aliceblue;
     font-size: 20px;
-    /* margin-top: 5px; */
     margin-bottom: 5px;
 }
 .cv-devps {
@@ -420,7 +408,7 @@ body{
     justify-content: center;
     position: relative;
     width: 430px;
-   height: 300px;
+    height: 300px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -438,7 +426,6 @@ body{
     border-bottom: 1px solid black;
     box-shadow: 5px 5px 20px rgb(77, 77, 236);
 }
-
 /* LINEA VERTICAL */
 .v-line{
     display: flex;
@@ -459,7 +446,6 @@ body{
     left: 5%;
     top: 0px;
 }
-
 /* KNOWLEDGE */
 .conocimientos {
     display: flex;
@@ -519,7 +505,6 @@ body{
     color: aliceblue;
     font-size: 16px;
     margin-top: 4px;
-   
 }
 .css {
     display: flex;
@@ -539,7 +524,6 @@ body{
     color: aliceblue;
     font-size: 16px;
     margin-top: 4px;
-    
 }
 .php {
     display: flex;
@@ -549,7 +533,6 @@ body{
     color: aliceblue;
     font-size: 16px;
     margin-top: 4px;
-    
 }
 .phpmyadmin {
     display: flex;
@@ -587,7 +570,6 @@ body{
     font-size: 16px;
     margin-top: 4px;
 }
-
 /* CONTAINER PROGRESO */
 .divprogress{
     display: flex;
@@ -651,7 +633,6 @@ body{
     left: 50px;
     font-size: 19px;
 }
-
 /* FOOTER */
 .pie {
     display: flex;
@@ -703,17 +684,14 @@ body{
 }
 /* FRASE */
 .container-frase{
- display: flex;
- position: relative;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- width: 350px;
- height: 250px;
- padding: 1em;
- 
-
-
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    padding: 1em;
 }
 .frase{
     display: flex;
