@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    body {
+      top: 5%; /* Ajuste para tamaños de pantalla más pequeños */
+      left: 5%; /* Ajuste para tamaños de pantalla más pequeños */
+      width: 90%; /* Ajuste para tamaños de pantalla más pequeños */
+      height: 90%; /* Ajuste para tamaños de pantalla más pequeños */
+    }
+  }
