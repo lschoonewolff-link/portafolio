@@ -51,6 +51,8 @@ body{
     font-size: 25px;
     font-weight: bold;
 }
+
+
 /* CUERPO PAGINA WEB */
 .principal{
     display: flex;
@@ -322,33 +324,6 @@ body{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     box-shadow: 5px 5px 20px rgb(77, 77, 236);
-}
-
-/* BOTON IR ARRIBA */
-#irArriba{
-    position:sticky;
-    width: 50px;
-    height: 50px;
-    top: 90%;
-    left: 90%;
-    transform: rotate(130deg);
-    background-color: blue;
-    border-radius: 50%;
-    box-shadow: 5px 5px 20px rgb(77, 77, 236);
-    transition: 300ms;
-}
-#irArriba a{
-    position: absolute;
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    top: -3px;
-    left: 3px;
-}
-#irArriba:hover{
-    cursor: pointer;
-    transition: 300ms;
-    border-bottom-left-radius: 5px;
 }
 
 
@@ -814,4 +789,37 @@ body{
     text-align: center;
     color: aliceblue;
     font-size: 16px;
+}
+
+/* BOTON IR ARRIBA */
+#irArriba{
+    position:sticky;
+    width: 50px;
+    height: 50px;
+    top: 90%;
+    left: 90%;
+    transform: rotate(130deg);
+    background-color: blue;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px rgb(77, 77, 236);
+    transition: 300ms;
+}
+#irArriba a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    top: -3px;
+    left: 3px;
+}
+#irArriba:hover{
+    cursor: pointer;
+    transition: 300ms;
+    border-bottom-left-radius: 1px;
+}
+/* resposive */
+@media (max-width: 1000px){
+    #irArriba:hover{
+        border-radius: 50%;
+    }
 }
